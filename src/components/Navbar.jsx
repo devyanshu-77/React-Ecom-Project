@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function Navbar() {
 	return (
-		<nav className="h-16 px-8 flex items-center justify-between border-b-2 border-gray-500">
+		<nav className="h-[70px] px-8 flex items-center justify-between border-b-2 border-gray-500">
 			<div >
 				<Link to="/" className="text-2xl font-medium" >ShopHub </Link>
 			</div>

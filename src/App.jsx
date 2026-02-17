@@ -8,7 +8,7 @@ import Navbar from './components/Navbar'
 function App() {
 
 	return (
-		<div>
+		<div className="min-h-screen grid grid-rows-[70px_1fr]">
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Home />} />
